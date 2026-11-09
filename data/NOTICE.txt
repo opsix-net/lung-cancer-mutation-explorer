@@ -1,0 +1,35 @@
+Lung Cancer Mutation Explorer: data attribution and license notice
+
+Source study: Lung Adenocarcinoma (TCGA, PanCancer Atlas), TCGA, Cell 2018.
+Study ID: luad_tcga_pan_can_atlas_2018
+Original study publications and data:
+https://gdc.cancer.gov/about-data/publications/pancanatlas
+We acknowledge The Cancer Genome Atlas Research Network and its participants.
+
+Retrieved through the public cBioPortal API. Study page:
+https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018
+Portal references:
+Cerami et al. Cancer Discovery 2, 401-404 (2012). doi:10.1158/2159-8290.CD-12-0095
+Gao et al. Science Signaling 6, pl1 (2013). doi:10.1126/scisignal.2004088
+
+The derived tab-separated database is made available under the Open Database
+License (ODbL) 1.0. The license text is available at:
+https://opendatacommons.org/licenses/odbl/1-0/
+Retain attribution, keep shared adaptations open, and retain the same database
+license. This notice concerns the data, not the original Java application code.
+Upstream data terms:
+https://docs.cbioportal.org/user-guide/faq/
+https://github.com/cBioPortal/datahub#license
+The upstream Datahub additionally identifies TCGA data with the Broad Institute
+GDAC TCGA Analysis Pipeline License and retains the original TCGA usage notice.
+No additional restrictions or ownership over those source data are claimed here.
+
+This snapshot selects BRAF, EGFR, KEAP1, KRAS, STK11, and TP53 from the mutation
+profile. It retains all returned records for those genes in the sequenced sample
+list, selects nine fields, sorts the rows, and uses Not_reported for a missing
+protein-change annotation. Coordinates are on GRCh37. It contains 803 mutation
+records and 566 study sample IDs. Retrieval date: 2026-11-09 UTC.
+
+Counts describe recorded mutations and distinct sample IDs, not population
+prevalence or personal risk. An absent record does not prove biological absence.
+This six-gene subset does not represent all genomic alterations in the study.
