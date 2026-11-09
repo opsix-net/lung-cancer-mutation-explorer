@@ -1,0 +1,2 @@
+# Select Binder's Python/Jupyter base environment; no extra Python packages.
+# Java is installed through apt.txt. The submitted application is Java.
